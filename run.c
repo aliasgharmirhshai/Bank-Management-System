@@ -10,6 +10,7 @@ struct run
 
 int main() {
 
+    ClearScreen();
     StartMenu();
 
     return 0;
