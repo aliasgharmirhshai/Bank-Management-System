@@ -26,16 +26,18 @@ int StartMenu() {
     switch (StartInput)
     {
     case 1:
-        Login();
+        Register();
         break;
     
     case 2:
-        Register();
+        Login();
         break;
 
     default:
         printf("Somthing Wrong!");
     }
+
+
 
     return 0;
 }
